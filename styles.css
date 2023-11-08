@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* Estilos generales */
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Crimson Text", serif;
+  font-family: "Playfair Display", serif;
+  overflow-x: hidden;
+}
+
+/* Estilos para el icono */
+.icon {
+  width: 70px; /* Ajusta el tamaño del icono según tu preferencia */
+}
+
+/* Estilos para las secciones (añade más según sea necesario) */
+section {
+  padding: 20px;
+  /* Agrega tus estilos personalizados aquí */
+}
+
+/* Estilos para el carrusel */
+#portfolioCarousel {
+  margin: 20px 0;
+}
+
+h2 {
+  padding-top: 100px;
+}
+
+p {
+  font-size: 2vh;
+}
+
+.desktopApps {
+  width: 70%;
+  margin: auto;
+}
+
+.cajas {
+  height: 100vh;
+}
+
+.cuadrado {
+  width: 400px;
+  height: 400px;
+  border-radius: 30px;
+  background: linear-gradient(80deg, #c900a7, #77009b 60%, #3f00a3);
+}
+.cuadrado img {
+  position: relative;
+  left: 60px;
+  bottom: 160px;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #dfb534;
+  color: #ffffff;
+  font-weight: 900;
+}
+.button:hover {
+  font-weight: 900;
+  text-decoration: none;
+  color: #ffffff;
+  background: linear-gradient(80deg, #c900a7, #77009b 60%, #3f00a3);
+}
+
+.certificaciones .card {
+  background-color: #dfb534;
+}
+
+/*# sourceMappingURL=styles.css.map */

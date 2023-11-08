@@ -1,0 +1,106 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: linear-gradient(120deg, #b6002d, #89009b 60%, #eeb242);
+}
+body .container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+body .calculator {
+  position: relative;
+  height: auto;
+  width: auto;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #252525;
+  background-color: #ffffff;
+  backdrop-filter: blur(0.1rem);
+}
+body .calculator.dark {
+  background-color: #252525;
+}
+body .calculator.dark #display {
+  color: #89009b;
+  background-color: #ffffff;
+}
+body .calculator.dark .btn-operator {
+  background-color: #eeb242;
+}
+body .calculator.dark .btn-equal {
+  background-color: #b6002d;
+}
+body .calculator.dark .btn-number {
+  background-color: #89009b;
+}
+body .calculator #display {
+  height: 50px;
+  width: auto;
+  padding: 30px;
+  border-radius: 30px;
+  font-size: 30px;
+  color: #eeb242;
+  background-color: #252525;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+body .calculator button {
+  border-radius: 50%;
+  width: 4.5vw;
+  height: 9vh;
+  cursor: pointer;
+  border: none;
+  margin: 5px;
+  transition: all 0.2s ease;
+}
+body .calculator button:hover {
+  scale: 1.1;
+}
+body .calculator .btn-equal {
+  height: 70px;
+  border-radius: 15px;
+  background-color: #b6002d;
+}
+body .calculator .btn-operator {
+  background-color: #89009b;
+}
+body .calculator .btn-number {
+  background-color: #eeb242;
+}
+body .theme-toggler {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+  color: #ffffff;
+  z-index: 1;
+}
+body .theme-toggler::before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  top: 50%;
+  transform: translate(15%, -120%);
+  border-radius: 50%;
+  background-color: #494949;
+  z-index: -1;
+}
+body .theme-toggler .active {
+  color: #252525;
+}
+body .theme-toggler .active::before {
+  background-color: #ffffff;
+}
+
+/*# sourceMappingURL=estilos.css.map */

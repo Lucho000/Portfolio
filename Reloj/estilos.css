@@ -1,0 +1,57 @@
+/*----------------------------------------------------------------------------------*/
+:root{
+    --color-0: #ffffff00;
+    --color-1: #2c2c2c;
+    --color-2: #ceaf4b;
+}
+/*----------------------------------------------------------------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--color-3);
+    background-color: var(--color-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body::-webkit-scrollbar{
+    width: 8px;
+    background-color: var(--color-0);
+}
+body::-webkit-scrollbar-thumb{
+    border-radius: 30px;
+    background-color: var(--color-3);
+}
+body::-webkit-scrollbar-thumb:hover{
+    border-radius: 30px;
+    background-color: var(--color-5);
+}
+/*----------------------------------------------------------------------------------*/
+#form_reloj{
+    width: 40%;
+    height: 20%;
+    border: none;
+    outline: none;
+    background-color: var(--color-1);
+    display: flex;
+}
+#form_reloj input{
+    margin: auto;
+    border: none;
+    outline: none;
+    font-size: 8vw;
+    color: var(--color-2);
+    background-color: var(--color-1);
+    text-align: center;
+}
+/*----------------------------------------------------------------------------------*/

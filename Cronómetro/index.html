@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Cronómetro</title>
+</head>
+<body>
+    <section id="cronometro">
+        <div id="queIndica"><p>Días</p><p>Hor</p><p>Min</p><p>Seg</p></div>        
+        <div id="contenedor">
+            <span id="contadorDias">0</span>:<span id="contadorHoras">0</span>:<span id="contadorMinutos">0</span>:<span id="contadorSegundos">0</span>
+        </div>
+        <div id="botones">
+            <button onclick="comenzar()" id="comenzar">Comenzar</button>
+            <button onclick="controlar()" id="controlar">Pausar/Despausar</button>
+            <button onclick="restablecer()" id="restablecer">Restablecer</button>
+        </div>
+    </section>
+    <script src="js.js"></script>
+</body>
+</html>
