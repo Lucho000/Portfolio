@@ -63,7 +63,7 @@ section {
 }
 
 .navbar, #blog, #portfolio, #estudios, #contacto {
-  background-color: #141414;
+  background: #141414;
 }
 
 h2 {
@@ -240,11 +240,12 @@ p {
 }
 
 @media (max-width: 900px) {
-  #navbarNav {
-    visibility: hidden;
+  #navegacion ul {
+    display: none;
   }
   #blog .cajas {
     height: 80vh;
+    overflow-x: none;
   }
   #blog .cajas .perfilAux {
     display: block;
@@ -255,14 +256,17 @@ p {
     display: none;
   }
   #blog #caja1 h1 {
+    font-size: 20px;
     color: #ffffff;
     border-left: 10px solid #c900a7;
   }
   #blog #caja2 h1 {
+    font-size: 20px;
     color: #ffffff;
     border-left: 10px solid #6a028a;
   }
   #blog #caja3 h1 {
+    font-size: 20px;
     color: #ffffff;
     border-left: 10px solid #3f00a3;
   }

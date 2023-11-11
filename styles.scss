@@ -72,7 +72,7 @@ section {
     color: $especial1;
 }
 .navbar, #blog, #portfolio, #estudios, #contacto{
-    background-color: $oscuro1;
+    background: $oscuro1;
 }
 h2{
     color: $claro2;
@@ -243,12 +243,15 @@ p{
 }
 
 @media (max-width: 900px){
-    #navbarNav{
-        visibility: hidden;
+    #navegacion{
+        ul{
+            display: none;
+        }
     }
     #blog{
         .cajas{
             height: 80vh;
+            overflow-x: none;
         }
         .cajas .perfilAux{
             display: block;
@@ -260,18 +263,21 @@ p{
         }
         #caja1{
             h1{
+                font-size: 20px;
                 color: $claro1;
                 border-left: 10px solid $especial2;
             }
         }
         #caja2{
             h1{
+                font-size: 20px;
                 color: $claro1;
                 border-left: 10px solid $especial3;
             }
         }
         #caja3{
             h1{
+                font-size: 20px;
                 color: $claro1;
                 border-left: 10px solid $especial4;
             }
@@ -281,9 +287,6 @@ p{
         #tecnologias div > img{
             width: 6vw;
         }
-    }
-    #estudios{
-
     }
     #contacto{
         display: flex;
